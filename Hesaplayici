@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class HipotenusHesaplayici {
+    public static void main(String[] args) {
+
+        double a,b,c;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.printf("Dik üçgenin kısa kenar uzunluğunuz yazınız : ");
+        a = input.nextDouble();
+        System.out.printf("Dik üçgenin uzun kenar uzunluğunuz yazınız : ");
+        b = input.nextDouble();
+
+        c=Math.sqrt(b*b+a*a);
+        System.out.printf("Hipotenüs Uzunluğu :" + c);
+
+    }
+}
